@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Condiciones</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- Encabezado principal de la pagina -->
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Desafio de condiciones</p>
+          <h1>Jardin interactivo</h1>
+        </div>
+        <img src="assets/img/plant-main.svg" alt="Planta decorativa" />
+      </header>
+
+      <!-- Ejercicio 1: imagen que cambia el borde con un click -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="number">1</p>
+          <h2>Borde con click</h2>
+        </div>
+        <p>selecciona la planta para ver la magia</p>
+        <img
+          class="plant-click"
+          id="plant-click"
+          src="assets/img/plant-click.svg"
+          alt="Planta en maceta"
+        />
+      </section>
+
+      <!-- Ejercicio 2: inputs para sumar stickers -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="number">2</p>
+          <h2>Selecciona tus stickers</h2>
+        </div>
+        <p>puedes seleccionar hasta 10 sticker en total</p>
+
+        <div class="stickers">
+          <label class="sticker">
+            <img src="assets/img/sticker-1.svg" alt="Sticker de hoja" />
+            <input class="sticker-input" type="number" min="0" value="0" />
+          </label>
+
+          <label class="sticker">
+            <img src="assets/img/sticker-2.svg" alt="Sticker de brote" />
+            <input class="sticker-input" type="number" min="0" value="0" />
+          </label>
+
+          <label class="sticker">
+            <img src="assets/img/sticker-3.svg" alt="Sticker de cactus" />
+            <input class="sticker-input" type="number" min="0" value="0" />
+          </label>
+        </div>
+
+        <button id="check-stickers" type="button">Verificar stickers</button>
+        <p class="result" id="sticker-result"></p>
+      </section>
+
+      <!-- Ejercicio 3: select para validar el password -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="number">3</p>
+          <h2>Ingresa el password</h2>
+        </div>
+
+        <div class="password">
+          <select id="digit-1" aria-label="Primer digito">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit-2" aria-label="Segundo digito">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit-3" aria-label="Tercer digito">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+
+        <button id="check-password" type="button">ingresar</button>
+        <p class="result" id="password-result"></p>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
