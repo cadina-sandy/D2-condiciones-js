@@ -9,6 +9,7 @@ La pagina tiene una estetica inspirada en plantas, con tonos verdes y una interf
 Puedes ver el proyecto publicado en GitHub Pages:
 
 🔗 [Ver demo del proyecto](https://cadina-sandy.github.io/D2-condiciones-js/)
+🔗 [Ver repo del proyecto](https://github.com/cadina-sandy/D2-condiciones-js)
 
 ## 🚀 ¿Que incluye este proyecto?
 
