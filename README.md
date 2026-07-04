@@ -89,5 +89,3 @@ En este proyecto se practicaron conceptos importantes de JavaScript:
 Hecho con dedicacion por **Sandy Cadin Azocar** 💖
 
 ## ⭐ Gracias por visitar mi proyecto
-
-🌟
